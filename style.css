@@ -1,0 +1,49 @@
+.controls {
+    display: flex;
+    justify-content: center;
+}
+
+body {
+    display: flex;
+    height: 500px;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+#add, #subtract {
+    color: white;
+    background-color: #bbbec4;
+    height: 75px;
+    width: 75px;
+    border-radius: 8px;
+    font-size: 50px;
+    margin: 10px;
+}
+
+#add:hover, #subtract:hover {
+    color:  #bbbec4;
+    background-color: white; 
+}
+
+#input {
+    border: solid 6px #bbbec4;
+    border-radius: 8px;
+    height: 70px;
+    width: 200px;
+    margin: 10px;
+    font-size: 40px;
+    text-align: center;
+    font-family: 'Nanum Gothic', sans-serif;
+}
+
+p {
+    font-size: larger;
+}
+
+#number {
+    font-size: 70px;
+    font-weight: bolder;
+    margin: 10px;
+    font-family: 'Nanum Gothic', sans-serif;
+}
